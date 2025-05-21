@@ -1,0 +1,16 @@
+.optium-header {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #2fa9f3;
+  width: 100%; /* ✅ use % instead of vw */
+  box-sizing: border-box;
+  margin: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.optium-logo {
+  height: 70%;
+  object-fit: contain;
+  padding-left: 20px;
+}
