@@ -1,0 +1,36 @@
+app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-body-wrapper {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.main-content-area {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+app-header {
+  flex-shrink: 0;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+app-footer {
+  flex-shrink: 0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
