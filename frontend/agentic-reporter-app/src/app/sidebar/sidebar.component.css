@@ -1,6 +1,11 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .sidebar-collapsed {
-  width: 5vw;
-  height: calc(100% - 20px);
+  width: 6vw;
   margin: 10px;
   background-color: #fff;
   display: flex;
@@ -9,18 +14,20 @@
   padding: 0;
   border: 2px solid #2fa9f3;
   border-radius: 6px;
+  flex: 1;
+  min-height: 0;
 }
 
 .p-button.p-button-text {
   background: transparent;
   border: none;
   padding: 0;
-  width: 48px;
-  height: 48px;
+  width: 6vw;
+  height: 6vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 8px;
+  margin: 0;
 }
 
 .p-button.p-button-text:hover {
@@ -29,6 +36,6 @@
 
 .sidebar-toggle-button .p-button-icon,
 .sidebar-user-icon .p-button-icon {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
 }
