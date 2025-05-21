@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 // 1. Import PrimeNG ButtonModule
 import { ButtonModule } from 'primeng/button';
+import { StepperModule } from 'primeng/stepper';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
@@ -22,7 +23,8 @@ import { TemplateCreatorComponent } from './template-creator/template-creator.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ButtonModule // 2. Add ButtonModule here
+    ButtonModule, // 2. Add ButtonModule here
+    StepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
