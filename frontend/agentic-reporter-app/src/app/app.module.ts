@@ -9,13 +9,15 @@ import { ButtonModule } from 'primeng/button';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { TemplateCreatorComponent } from './template-creator/template-creator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    TemplateCreatorComponent
   ],
   imports: [
     BrowserModule,

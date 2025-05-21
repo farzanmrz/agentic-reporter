@@ -14,7 +14,11 @@ app-root {
 .main-content-area {
   flex-grow: 1;
   overflow-y: auto;
-  padding: 20px;
+  padding: 5px;
+  display: flex;
+  align-items: center;    /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  min-height: 100%;        /* ensure it fills available space */
 }
 
 app-header {
