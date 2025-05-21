@@ -7,11 +7,15 @@ import { AppComponent } from './app.component';
 // 1. Import PrimeNG ButtonModule
 import { ButtonModule } from 'primeng/button';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

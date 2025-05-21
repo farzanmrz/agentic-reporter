@@ -1,13 +1,21 @@
+/* Import nunito sans font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
-  height: 100%; /* Ensures the body can take full height if needed */
-  box-sizing: border-box; /* Recommended for more predictable sizing */
+  height: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #CCCCCC;
+  box-sizing: border-box;
 }
 
-/* Optional: ensure app-root also behaves as a block taking full width */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 app-root {
-  display: block; /* Or flex, if you intend to make app-root a flex container */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
-/* You can add global styles to this file, and also import other style files */

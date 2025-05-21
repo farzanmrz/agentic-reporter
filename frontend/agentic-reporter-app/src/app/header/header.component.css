@@ -1,16 +1,13 @@
 .header-main {
+  height: 8vh;
   width: 100%;
-  margin: 0;
-  padding: 2px 0;
-  border-bottom: 3px solid #d1d5db;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.28);
+  background-color: #fff;
+  border-bottom: 2px solid #2fa9f3;
   display: flex;
   align-items: center;
-  border-radius: 0;
+  padding: 2px 25px;
 }
 
 .header-logo {
-  height: 56px;
-  margin: 10px 16px 10px 32px;
-  display: block;
+  height: 6vh;
 }
