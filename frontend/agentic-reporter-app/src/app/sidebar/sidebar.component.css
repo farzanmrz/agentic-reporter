@@ -1,0 +1,27 @@
+.sidebar-container {
+  background-color: white; /* 1. Change background to white */
+  border: 2px solid black; /* 2. Add 2px black border */
+  width: 10%; /* Keep original width, or adjust if needed with new margins */
+  position: fixed; /* Fixed position */
+  
+  /* 3. Adjust margins and height to account for header/footer and desired gaps */
+  top: calc(5vh + 10px); /* 5vh for header + 10px top margin */
+  left: 10px; /* 10px left margin */
+  bottom: calc(5vh + 10px); /* 5vh for footer + 10px bottom margin */
+  /* The height is now implicitly defined by top and bottom */
+
+  margin-right: 10px; /* 4. Add 10px right margin */
+  
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  color: #2480b9; /* Text color to match theme */
+  font-size: 1.0em; /* 5. Reduce font size (adjust as needed) */
+  margin-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6; /* A light border for the header text */
+}

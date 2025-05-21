@@ -1,5 +1,11 @@
 .main-container {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
   box-sizing: border-box;
+  position: fixed;
+  top: calc(5vh + 10px);
+  bottom: calc(5vh + 10px);
+  left: calc(10% + 20px); /* sidebar width + sidebar left/right margin */
+  right: 10px;
+  display: flex;
+  align-items: stretch;
+  z-index: 1;
 }

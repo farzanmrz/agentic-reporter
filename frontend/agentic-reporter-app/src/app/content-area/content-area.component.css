@@ -1,0 +1,40 @@
+:host {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: stretch;
+  height: 100%;
+}
+
+p-card {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #fff;
+  border: 2px solid black; /* Match sidebar border */
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  padding: 0;
+}
+
+.custom-card-header {
+  height: 10%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #2fa9f3; /* Optium blue */
+  border-bottom: 1px solid black;
+  background: #fff;
+  box-shadow: 0 2px 6px -4px #00000080; /* subtle shadow under header border */
+}
+
+.custom-card-body {
+  height: 90%;
+  padding: 24px;
+  overflow-y: auto;
+  background: #fff;
+}

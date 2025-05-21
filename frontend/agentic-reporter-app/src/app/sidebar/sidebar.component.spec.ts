@@ -6,10 +6,12 @@ describe('SidebarComponent', () => {
   let component: SidebarComponent;
   let fixture: ComponentFixture<SidebarComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [SidebarComponent]
-    });
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      imports: [SidebarComponent]
+    })
+    .compileComponents();
+
     fixture = TestBed.createComponent(SidebarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
