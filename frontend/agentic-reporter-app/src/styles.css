@@ -1,1 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures the body can take full height if needed */
+  box-sizing: border-box; /* Recommended for more predictable sizing */
+}
+
+/* Optional: ensure app-root also behaves as a block taking full width */
+app-root {
+  display: block; /* Or flex, if you intend to make app-root a flex container */
+}
+
 /* You can add global styles to this file, and also import other style files */
