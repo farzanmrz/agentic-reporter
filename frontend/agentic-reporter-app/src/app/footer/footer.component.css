@@ -1,0 +1,20 @@
+.optium-footer {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid #2fa9f3;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2); /* shadow on top */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: white; /* optional to ensure it doesn't go transparent */
+}
+
+.footer-text {
+  color: #2fa9f3;
+  font-weight: 700;
+}

@@ -1,6 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
-/* Remove default browser margins */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 html, body {
+  font-family: 'Nunito Sans', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
