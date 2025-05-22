@@ -1,0 +1,19 @@
+.stepper-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.step-content {
+  padding: 20px;
+  flex-grow: 1;
+  border: 1px solid #dee2e6; /* Example border */
+  border-top: none; /* Remove top border to connect with steps */
+  background-color: #ffffff;
+}
+
+/* Optional: Style for p-steps if needed */
+:host ::ng-deep .p-steps {
+  margin-bottom: 0; /* Remove default bottom margin if any */
+}

@@ -1,0 +1,15 @@
+<div class="stepper-container">
+  <p-steps [model]="items" [(activeIndex)]="activeIndex" [readonly]="false"></p-steps>
+
+  <div class="step-content">
+    <div *ngIf="activeIndex === 0">
+      <p>Content for Step 1</p>
+    </div>
+    <div *ngIf="activeIndex === 1">
+      <p>Content for Step 2</p>
+    </div>
+    <div *ngIf="activeIndex === 2">
+      <p>Content for Step 3</p>
+    </div>
+  </div>
+</div>
