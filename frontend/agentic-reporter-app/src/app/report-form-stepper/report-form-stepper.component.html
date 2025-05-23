@@ -3,13 +3,22 @@
 
   <div class="step-content">
     <div *ngIf="activeIndex === 0">
-      <p>Content for Step 1</p>
-    </div>
+      <div class="form-row"> <div class="form-field">
+          <label htmlFor="agentName">Agent Name</label>
+          <input pInputText id="agentName" type="text" [(ngModel)]="agentName" />
+        </div>
+
+        <div class="form-field"> <label htmlFor="templateName">Template Name</label>
+          <input pInputText id="templateName" type="text" [(ngModel)]="templateName" />
+        </div>
+      </div>
+      </div>
+
     <div *ngIf="activeIndex === 1">
-      <p>Content for Step 2</p>
+      <p>Content for Step 2: Define Logic</p>
     </div>
     <div *ngIf="activeIndex === 2">
-      <p>Content for Step 3</p>
+      <p>Content for Step 3: Confirm & Save</p>
     </div>
   </div>
 </div>
